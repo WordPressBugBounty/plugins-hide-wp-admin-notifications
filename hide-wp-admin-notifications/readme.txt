@@ -2,9 +2,9 @@
 Contributors: yodaofwp
 Tags: hide, notifications, admin, dashboard
 Requires at least: 5.2
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.0
-Stable tag: 0.2.1
+Stable tag: 0.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,10 +16,10 @@ Tired of your WordPress dashboard being overrun by countless admin notices? Rega
 This sleek, straightforward plugin does more than just disable notifications; it puts the power in your hands to switch them on whenever necessary! Stay up-to-date with crucial updates, safety warnings, and significant notifications, all tailored to your schedule.
 
 Key Features:
-Refresh Your Dashboard: Say goodbye to the clutter of unnecessary notices and embrace the elegance of a neat, organized admin area.
-Flexible Notification Control: Turn on alerts as and when you prefer, ensuring you’re always abreast of vital updates, security warnings, and crucial bulletins.
-User-Focused Interface: Our plugin is designed considering your needs, offering a user-friendly and intuitive interaction.
-Seamless Updates: Maintain your configured settings even after plugin updates, ensuring uninterrupted user experience.
+* Refresh Your Dashboard: Say goodbye to the clutter of unnecessary notices and embrace the elegance of a neat, organized admin area.
+* Flexible Notification Control: Turn on alerts as and when you prefer, ensuring you’re always abreast of vital updates, security warnings, and crucial bulletins.
+* User-Focused Interface: Our plugin is designed considering your needs, offering a user-friendly and intuitive interaction.
+* Seamless Updates: Maintain your configured settings even after plugin updates, ensuring uninterrupted user experience.
 
 == Installation ==
 1. Upload the `hide-wp-admin-notifications` folder to the `/wp-content/plugins/` directory.
@@ -34,6 +34,12 @@ Go to the 'Settings' menu and click on 'Hide WP Admin Notifications'. Check the 
 1. The settings page of the Hide WP Admin Notifications plugin.
 
 == Changelog ==
+
+= 0.2.2 =
+* Confirmed compatibility with WordPress 6.9.
+* Improved security by properly escaping output in the settings page.
+* Minor internal cleanup while preserving existing user settings.
+
 = 0.2.1 =
 * Confirmed compatibility with WordPress 6.8.
 
