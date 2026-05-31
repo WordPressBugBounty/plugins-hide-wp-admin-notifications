@@ -2,24 +2,24 @@
 Contributors: yodaofwp
 Tags: hide, notifications, admin, dashboard
 Requires at least: 5.2
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.0
-Stable tag: 0.2.2
+Stable tag: 0.2.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Hides all WordPress admin dashboard notifications with an option to show them temporarily.
+Hides WordPress admin notices until you choose to show them again from Settings.
 
 == Description ==
-Tired of your WordPress dashboard being overrun by countless admin notices? Regain control with our easy-to-use plugin!
+Hide WP Admin Notifications keeps the WordPress admin area cleaner by hiding dashboard notices until you decide to show them again.
 
-This sleek, straightforward plugin does more than just disable notifications; it puts the power in your hands to switch them on whenever necessary! Stay up-to-date with crucial updates, safety warnings, and significant notifications, all tailored to your schedule.
+The plugin adds a single setting under `Settings > Hide WP Admin Notifications`. If you enable notices, they appear again. If you disable them, they stay hidden. Your saved preference is kept during plugin updates.
 
-Key Features:
-* Refresh Your Dashboard: Say goodbye to the clutter of unnecessary notices and embrace the elegance of a neat, organized admin area.
-* Flexible Notification Control: Turn on alerts as and when you prefer, ensuring you’re always abreast of vital updates, security warnings, and crucial bulletins.
-* User-Focused Interface: Our plugin is designed considering your needs, offering a user-friendly and intuitive interaction.
-* Seamless Updates: Maintain your configured settings even after plugin updates, ensuring uninterrupted user experience.
+Features:
+* Hides WordPress admin notices by default.
+* Lets you turn notices back on from a simple settings page.
+* Preserves the saved setting when the plugin is updated.
+* Uses a WordPress-native admin interface.
 
 == Installation ==
 1. Upload the `hide-wp-admin-notifications` folder to the `/wp-content/plugins/` directory.
@@ -28,12 +28,19 @@ Key Features:
 
 == Frequently Asked Questions ==
 = How do I enable dashboard notices temporarily? =
-Go to the 'Settings' menu and click on 'Hide WP Admin Notifications'. Check the box to temporarily show all dashboard notices.
+Go to `Settings > Hide WP Admin Notifications` and check the box to show admin notices again.
 
 == Screenshots ==
 1. The settings page of the Hide WP Admin Notifications plugin.
 
 == Changelog ==
+
+= 0.2.3 =
+* Confirmed compatibility with WordPress 7.0.
+* Fixed the settings checkbox so disabling notices saves correctly after they were previously enabled.
+* Keeps the settings saved notice in the standard WordPress admin position.
+* Kept the existing notice preference unchanged during updates.
+* Refreshed the settings screen and WordPress.org icon/banner assets.
 
 = 0.2.2 =
 * Confirmed compatibility with WordPress 6.9.
